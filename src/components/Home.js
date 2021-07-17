@@ -2,9 +2,8 @@
 
 function Home() {
   return (
-    <div className="Home">
-      <h1>FEW 2.3</h1>
-      <p>Anneka Curry</p>
+    <div className="nav">
+      <h1>FEW 2.3 | Anneka Curry</h1>
     </div>
   )
 }

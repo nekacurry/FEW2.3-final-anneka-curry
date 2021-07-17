@@ -1,22 +1,22 @@
 
 
 function StarWarsDisplay(props) {
-  const { name, birth, height, mass, gender, message, num } = props
+  const { name, birth, height, mass, gender} = props
 
-  if (num === 17) {
-    return (
-      <small>{message}</small>
-    )
+  if (props === null){
+    return null
   }
 
   return (
-    <div className="StarWarsDisplay">
-      <h1>{name}</h1>
-      <p>Birthyear: {birth}</p>
-      <p>Gender: {gender}</p>
-      <p>Height: {height}</p>
-      <p>Mass: {mass}</p>
-    </div>
+    <div>
+      <section>
+        <h1>{name}</h1>
+        <p>Birthyear: {birth}</p>
+        <p>Gender: {gender}</p>
+        <p>Height: {height}</p>
+        <p>Mass: {mass}</p>
+      </section>
+  </div>
   )
 }
 
