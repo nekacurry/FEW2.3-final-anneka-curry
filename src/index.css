@@ -248,9 +248,5 @@ section.list {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-
-}
-
-.list-b {
-  margin-top: 0;
+  justify-content: center;
 }
