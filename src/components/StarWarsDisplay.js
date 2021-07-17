@@ -9,13 +9,11 @@ function StarWarsDisplay(props) {
 
   return (
     <div>
-      <section>
         <h1>{name}</h1>
         <p>Birthyear: {birth}</p>
         <p>Gender: {gender}</p>
         <p>Height: {height}</p>
         <p>Mass: {mass}</p>
-      </section>
   </div>
   )
 }
